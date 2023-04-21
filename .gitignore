@@ -50,3 +50,8 @@ atlassian-ide-plugin.xml
 
 # VS Code
 .vscode/
+
+# Maven wrapper and related files
+.mvn/
+mvnw
+mvnw.cmd
