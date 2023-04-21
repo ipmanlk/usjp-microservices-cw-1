@@ -25,6 +25,10 @@ public class StudentService {
         return studentRepository.findById(id);
     }
 
+    public List<Student> findByName(String name) {
+        return studentRepository.findByName(name);
+    }
+
     public Student update(Long id, Student updatedStudent) {
         return studentRepository.findById(id)
                 .map(student -> {
